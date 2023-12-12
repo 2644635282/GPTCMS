@@ -1,5 +1,7 @@
 ## GPTCMS商业版-MOSS人工智能助理，SAAS全开源独立版 微信：sn5dial
 
+微信：sn5dial
+
 ![Image text](https://github.com/2644635282/GPTCMS/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230530185916.jpg?raw=true)
 
 本系统全开源、后台自动更新、提供一年技术支持。
@@ -8,9 +10,6 @@
 
 技术栈：PHP ThinkPHP VUE3 uniapp PHP-7.4 Mysql-5.7
 
-微信：sn5dial
-微信：sn5dial
-微信：sn5dial
 
 
 功能特性

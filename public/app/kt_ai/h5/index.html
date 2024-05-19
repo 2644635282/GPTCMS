@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><title>AI智能助理</title><script src=/static/js/touch-emulator.js></script><script>// TouchEmulator();
+			(function() {
+				var url = location.href;
+				var qIndex = url.indexOf('?')
+				// hash路由模式下微信授权回来会把code等参数拼在#前面（https://cloud.tencent.com/developer/article/1921120），这里处理下链接
+				if (qIndex > -1 && qIndex < url.indexOf('#/')) {
+					var arr = url.split('#/')
+					var q = arr[0]
+					var hashPath = '#/' + arr[1]
+					arr = q.split('?')
+					var baseUrl = arr[0]
+					q = arr[1]
+					var realUrl = baseUrl + hashPath + (hashPath.indexOf('?') !== -1 ? '&' : '?') + q
+					location.replace(realUrl)
+					// window.stop()
+					// 避免页面继续加载造成闪屏
+					// var elStyle = document.createElement('style')
+					// elStyle.innerHTML = 'body{display:none!important;}'
+					// document.head.appendChild(elStyle)
+					localStorage.setItem('stopForUrlReplace', 1)
+				} else {
+					localStorage.removeItem('stopForUrlReplace')
+				}
+			})();</script><style>::-webkit-scrollbar{
+                display: none;
+            }</style><script>document.addEventListener('DOMContentLoaded', function() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+			})</script><link rel=stylesheet href=/app/kt_ai/h5/static/index.css></head><body style="background: #151520;"><style></style><noscript><strong>本站点必须要开启JavaScript才能运行</strong></noscript><view class=compatible><view class=compatible-inner><view id=app></view></view></view><script>/*BAIDU_STAT*/</script><script type=text/html src=/static/js/jssdk></script><script type=text/html src=/static/js/uni.webview.1.5.5></script><script>console.log('asdfsfsdf')
+			 document.addEventListener('UniAppJSBridgeReady', function () {
+          uni.webView.getEnv(function (res) {
+            console.log('当前环境：' + JSON.stringify(res));
+          });
+        });</script><script src=/app/kt_ai/h5/static/js/chunk-vendors.4f11e7fc.js></script><script src=/app/kt_ai/h5/static/js/index.b60a452b.js></script></body></html>

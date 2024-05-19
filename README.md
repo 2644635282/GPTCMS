@@ -1,6 +1,4 @@
-## GPTCMS商业版-MOSS人工智能助理，SAAS全开源独立版 微信：sn5dial
-
-微信：sn5dial
+## GPTCMS商业版-MOSS人工智能助理，SAAS全开源独立版
 
 ![Image text](https://github.com/2644635282/GPTCMS/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230530185916.jpg?raw=true)
 
@@ -63,3 +61,8 @@
 22.已支持gpt-3.5、gpt-4、灵犀星火（国内）、ChatGLM（清华旗下）、api2d等多个api平台，后续还将免费对接文心一言、讯飞星火、昆仑天工等
 
 23.系统持续高速更新中，更多功能请登录演示站体验
+
+
+### 完整版源码购买联系微信：sn5dial
+
+可提供Uniapp开源版本，全开源！

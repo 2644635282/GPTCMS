@@ -1,0 +1,1 @@
+import{_ as e,W as a}from"./index-cd500ebf.js";import{o as s,c as t,w as r,b as o,a as c,T as _}from"./index-bd78cdd5.js";const n={style:{transform:"translateZ(0)"}},p={__name:"page3",setup(l){return(f,u)=>(s(),t(e,null,{default:r(()=>[o("div",n,[c(_(a),{alive:!1,url:"",sync:!1})])]),_:1}))}};export{p as default};

@@ -1,0 +1,1 @@
+ALTER TABLE `kt_gptcms_recharge_setmeal` ADD COLUMN `title` varchar(255) NULL AFTER `wid`;

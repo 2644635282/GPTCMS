@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../font/flaticon.ttf") format("truetype"),
+url("../font/flaticon.woff") format("woff"),
+url("../font/flaticon.woff2") format("woff2"),
+url("../font/flaticon.eot") format("embedded-opentype"),
+url("../font/flaticon.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-001-right:before {
+    content: "\f101";
+}
+.flaticon-002-up-arrow:before {
+    content: "\f102";
+}
+.flaticon-005-check-mark-1:before {
+    content: "\f103";
+}
+.flaticon-006-scroll:before {
+    content: "\f104";
+}
+.flaticon-007-scroll-1:before {
+    content: "\f105";
+}
+.flaticon-008-apple-logo:before {
+    content: "\f106";
+}
+.flaticon-009-windows-logo:before {
+    content: "\f107";
+}
+.flaticon-010-android-logo:before {
+    content: "\f108";
+}
+.flaticon-011-imac:before {
+    content: "\f109";
+}
+.flaticon-012-windows-platform-logo:before {
+    content: "\f10a";
+}
+.flaticon-014-diet:before {
+    content: "\f10b";
+}
+.flaticon-018-food:before {
+    content: "\f10c";
+}
+.flaticon-023-download-circular-button:before {
+    content: "\f10d";
+}
+.flaticon-025-check-mark-3:before {
+    content: "\f10e";
+}
+.flaticon-026-check-mark-4:before {
+    content: "\f10f";
+}
+.flaticon-028-check-mark-6:before {
+    content: "\f110";
+}
+.flaticon-039-treadmill:before {
+    content: "\f111";
+}
+.flaticon-040-workout:before {
+    content: "\f112";
+}
+.flaticon-043-file:before {
+    content: "\f113";
+}
+.flaticon-044-integration:before {
+    content: "\f114";
+}
+.flaticon-045-eye-tracking:before {
+    content: "\f115";
+}
+.flaticon-046-workflow:before {
+    content: "\f116";
+}
+.flaticon-047-growth-1:before {
+    content: "\f117";
+}
+.flaticon-048-feedback:before {
+    content: "\f118";
+}
+.flaticon-049-add-user:before {
+    content: "\f119";
+}
+.flaticon-058-mac-os-logo:before {
+    content: "\f11a";
+}

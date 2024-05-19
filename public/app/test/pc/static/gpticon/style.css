@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'gpticon';
+  src: url('static/gpticon/fonts/gpticon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="gpticon-"], [class*=" gpticon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'gpticon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gpticon-faivor:before {
+  content: "\e920";
+}
+.gpticon-copylink:before {
+  content: "\e91f";
+}
+.gpticon-download:before {
+  content: "\e91e";
+}
+.gpticon-history:before {
+  content: "\e91c";
+}
+.gpticon-create:before {
+  content: "\e91d";
+}
+.gpticon-size-3-4:before {
+  content: "\e915";
+}
+.gpticon-size-4-3:before {
+  content: "\e916";
+}
+.gpticon-size-9-16:before {
+  content: "\e917";
+}
+.gpticon-size-16-9:before {
+  content: "\e918";
+}
+.gpticon-size-1-1:before {
+  content: "\e919";
+}
+.gpticon-size-1-2:before {
+  content: "\e91a";
+}
+.gpticon-size-2-1:before {
+  content: "\e91b";
+}
+.gpticon-wechat:before {
+  content: "\e914";
+}
+.gpticon-loading-border:before {
+  content: "\e912";
+}
+.gpticon-stop:before {
+  content: "\e913";
+}
+.gpticon-setting:before {
+  content: "\e911";
+}
+.gpticon-infinity:before {
+  content: "\e910";
+}
+.gpticon-voice:before {
+  content: "\e90f";
+}
+.gpticon-weixin:before {
+  content: "\e90e";
+}
+.gpticon-close:before {
+  content: "\e90d";
+}
+.gpticon-logout:before {
+  content: "\e90b";
+}
+.gpticon-license:before {
+  content: "\e90c";
+}
+.gpticon-line-arrow-right:before {
+  content: "\e90a";
+}
+.gpticon-check:before {
+  content: "\e908";
+}
+.gpticon-drop:before {
+  content: "\e909";
+}
+.gpticon-delete:before {
+  content: "\e907";
+}
+.gpticon-loading:before {
+  content: "\e906";
+}
+.gpticon-reload:before {
+  content: "\e905";
+}
+.gpticon-copy:before {
+  content: "\e904";
+}
+.gpticon-switch:before {
+  content: "\e900";
+}
+.gpticon-go:before {
+  content: "\e901";
+}
+.gpticon-back:before {
+  content: "\e902";
+}
+.gpticon-edit:before {
+  content: "\e903";
+}

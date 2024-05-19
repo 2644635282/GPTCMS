@@ -1,0 +1,795 @@
+/*-------------------------------------------
+    17. Responsive Design CSS
+-------------------------------------------*/
+
+/*=====================================
+    Extra Large Screen
+========================================*/
+
+@media only screen and (min-width: 1920px) {
+}
+
+/*=====================================
+  For Large Screen
+========================================*/
+
+/*------Max 1200px Width Screen------*/
+
+@media only screen and (max-width: 1775px) {
+
+}
+
+/*--------Max 1680px Width Screen---------*/
+@media only screen and (max-width: 1600px) {
+
+}
+
+/*--------Max 1580px Width Screen---------*/
+@media only screen and (max-width: 1580px) {
+
+}
+/*--------Max 1475px Width Screen---------*/
+@media only screen and (max-width: 1480px) {
+
+}
+
+/*--------Max 1366px Width Screen---------*/
+
+@media only screen and (max-width: 1399px){
+
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        /* font-size: 48px; */
+    }
+    h2 {
+        font-size: 41px;
+    }
+    .theme-btn, .theme-btn-outline, .theme-btn-purple, .theme-btn-green, .theme-btn-red, .edit-btn, .theme-btn-back {
+        padding: 17px 32px!important;
+    }
+
+    .generate-content-faq .accordion-button, .accordion-button {
+        font-size: 18px;
+    }
+
+
+    /* Menu CSS */
+    #mainNav .navbar-brand img {
+        height: 30px;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 10px 0 10px 0;
+        margin-right: 30px;
+    }
+    #mainNav.sticky .navbar-nav .nav-item .nav-link {
+        padding: 27px 0 27px 0;
+        margin-right: 30px;
+    }
+    .direction-rtl #mainNav .navbar-nav .nav-item .nav-link, #mainNav.sticky .navbar-nav .nav-item .nav-link {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+    .navbar-nav-right .header-get-free-trial-btn .theme-btn-outline {
+        margin-right: 30px;
+    }
+    .direction-rtl .navbar-nav-right .header-get-free-trial-btn .theme-btn-outline {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+    .navbar-nav-right .theme-btn-outline {
+        height: 50px;
+        padding: 17px 20px!important;
+        font-size: 15px;
+    }
+    .direction-rtl .navbar-login-btn .nav-link {
+        margin-left: 30px!important;
+    }
+    /* Menu CSS */
+
+    /* Hero Area */
+    .typed-cursor {
+        top: 22px;
+    }
+    /* Hero Area */
+
+    /* Pricing Page */
+    .pricing-top-part-content-wrap {
+        min-height: 870px;
+    }
+    .pricing-plan-area {
+        padding: 0 25px;
+    }
+    /* Pricing Page */
+
+    /* Contact Page */
+    .contact-page-right-part {
+        padding-left: 56px;
+    }
+    /* Contact Page */
+}
+
+@media only screen and (max-width: 1300px){
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+
+    #mainNav {
+        padding: 0 40px;
+    }
+
+}
+
+/*Default for Max 1366px Width Devices*/
+@media only screen and (max-width: 1366px) {
+
+    .theme-button {
+        font-size: 16px;
+    }
+
+}
+
+/*--------Max 1200px Width Screen---------*/
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*=====================================
+  For Medium Screen
+========================================*/
+
+@media only screen and (max-width: 1199.98px) {
+    h2 {
+        font-size: 30px;
+    }
+    h5 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .theme-btn, .theme-btn-outline, .theme-btn-purple, .theme-btn-green, .theme-btn-red, .edit-btn, .theme-btn-back {
+        padding: 15px 25px!important;
+    }
+
+    /* Menu Area */
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 20px 0 20px 0;
+        margin-right: 20px;
+    }
+    #mainNav.sticky .navbar-nav .nav-item .nav-link {
+        padding: 27px 0 27px 0;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    .direction-rtl #mainNav .navbar-nav .nav-item .nav-link {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    #mainNav .navbar-brand img, .footer-about img {
+        height: 24px;
+    }
+    .navbar-nav-right .header-get-free-trial-btn .theme-btn-outline {
+        margin-right: 20px;
+    }
+    .direction-rtl .navbar-nav-right .header-get-free-trial-btn .theme-btn-outline {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .navbar-nav-right .theme-btn-outline {
+        height: 47px;
+        padding: 15px 20px!important;
+        font-size: 15px;
+    }
+    .direction-rtl .navbar-login-btn .nav-link {
+        margin-left: 20px!important;
+    }
+    /* Menu Area */
+
+    /* Pricing area */
+    .price-card-item {
+        padding: 20px;
+    }
+    /* Pricing area */
+
+    /* Testimonial Area */
+    .customer-testimonial-img img {
+        height: 65px;
+        width: 65px!important;
+    }
+    .customer-testimonial-item {
+        padding: 30px;
+    }
+    /* Testimonial Area */
+
+    /* Breadcrumb Area */
+    .breadcrumb-area {
+        padding: 166px 0 0px;
+    }
+    /* Breadcrumb Area */
+
+    /* Contact Page */
+    .contact-info-wrap {
+        padding-top: 0;
+    }
+    .contact-page-right-part {
+        padding-left: 30px;
+    }
+    /* Contact Page */
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    #mainNav {
+        padding: 21px 0;
+    }
+    #mainNav.sticky {
+        padding: 21px 0;
+    }
+}
+
+/*======================================
+      Tablet layout
+=========================================*/
+
+@media only screen and (max-width: 992.98px) {
+
+}
+
+@media only screen and (min-width: 991px) {
+
+}
+
+@media only screen and (min-width: 768.98px) and (max-width: 991.98px){
+
+    /*Main Menu Bar*/
+    p {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 991.98px) {
+    h1 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        padding-right: var(--bs-gutter-x,.75rem)!important;
+        padding-left: var(--bs-gutter-x,.75rem)!important;
+    }
+
+    .theme-btn, .theme-btn-outline, .theme-btn-purple, .theme-btn-green, .theme-btn-red, .edit-btn, .theme-btn-back {
+        padding: 18px 38px!important;
+    }
+
+    .theme-btn {
+        font-size: 14px;
+        padding: 8px 23px;
+    }
+    .section-t-space {
+        padding-top: 100px;
+    }
+    .section-b-space{
+        padding-bottom: 100px;
+    }
+    .section-b-small-space {
+        padding-bottom: 75px;
+    }
+    .section-t-small-space {
+        padding-top: 75px;
+    }
+    h2, h2.section-heading {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .section-title {
+        width: 80%;
+    }
+    .section-heading {
+        margin-bottom: 15px;
+    }
+
+    .section-sub-heading, .section-heading {
+        width: 100%;
+    }
+
+    /*Menu CSS Start*/
+    /* Menu CSS */
+    #mainNav .navbar-nav .dropdown-menu a {
+        font-size: 14px;
+    }
+    #mainNav, #mainNav.sticky {
+        padding: 15px 0px!important;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link, #mainNav.sticky .navbar-nav .nav-item .nav-link {
+        padding: 0.75em 0;
+        margin-right: 11px;
+        margin-left: 11px;
+    }
+    /* Offcanvas menu */
+    .offcanvas-body {
+        padding: 0 1rem 1rem;
+    }
+
+    #mainNav .navbar-toggler {
+        padding: .25rem 0;
+        border: none;
+        color: var(--white-color);
+    }
+    .navbar-nav-right li a {
+        flex-direction: column;
+    }
+    #mainNav .btn {
+        display: flex;
+    }
+    .navbar-nav-middle .dropdown-menu {
+        width: auto;
+    }
+    .navbar-nav-middle .dropdown-menu .row {
+        flex-direction: column;
+    }
+    .navbar-nav-middle .dropdown-menu li {
+        width: 100%;
+    }
+    .navbar-nav-middle .hosting-menu-item {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        padding: 0 15px;
+        width: 100%;
+    }
+    .pageMenu .dropdown-item {
+        padding: 10px 15px!important;
+    }
+    /*Menu CSS Start*/
+
+    /* Page Banner */
+    .page-banner-area {
+        min-height: 450px;
+        padding-top: 180px;
+        padding-bottom: 135px;
+    }
+    /* Page Banner */
+
+    /* Hero Area */
+    .hero-area-top-part {
+        min-height: 900px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .hero-area-bottom-part {
+        margin-top: -420px;
+    }
+    .hero-sub-title {
+        width: 100%;
+    }
+    .hero-robot-img img {
+        height: 48px;
+    }
+    .typed-cursor {
+        top: 16px;
+        height: 31px;
+    }
+    .typed-cursor::after {
+        top: -9.3px;
+    }
+    /* Hero Area */
+
+    /* Generate Content */
+    .generate-content-right {
+        margin-top: 25px;
+    }
+    /* Generate Content */
+
+    /* How It Works */
+    .how-it-works-item-title {
+        padding-right: 0;
+    }
+    /* How It Works */
+
+    /* Pricing area */
+    .pricing-top-part-content-wrap {
+        min-height: 790px;
+    }
+    .pricing-top-part-content p {
+        width: 79%;
+    }
+    /* Pricing area */
+
+    /* Testimonial area */
+    .customer-testimonial-area .section-title {
+        width: 70%;
+    }
+    /* Testimonial area */
+
+    /*Footer*/
+    .footer-area {
+        padding: 75px 0 0;
+    }
+    .footer-top-part {
+        padding-bottom: 50px;
+    }
+    .footer-subscribe-content p {
+        width: 100%;
+    }
+    .footer-about img, .footer-widget > h5 {
+        margin-bottom: 22px;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    .footer-links ul li {
+        padding: 0 0 12px;
+    }
+    .copyright-text {
+        text-align: center;
+    }
+    .footer-bottom-nav ul {
+        justify-content: center!important;
+    }
+
+    .footer-widget.footer-about {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-social ul {
+        justify-content: center;
+    }
+
+
+    /* Inner Page Banner Area */
+    .page-banner-content.section-title {
+        width: 90%;
+    }
+    /* Inner Page Banner Area */
+
+    /* Contact Page */
+    .contact-page-right-part {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    /* Contact Page */
+
+}
+
+@media only screen and (max-width: 768.98px) {
+
+}
+
+/*=======================================
+      For Small Devices
+=========================================*/
+@media only screen and (max-width: 767.98px) {
+    h1 {
+        font-size: 37px;
+    }
+
+    h3 {
+        font-size: 34px;
+    }
+    .section-title {
+        width: 100%;
+    }
+
+    /* Hero area */
+    .hero-area {
+        /* margin-bottom: 100px; */
+    }
+
+    .hero-robot-img img {
+        height: 40px;
+    }
+
+    .typed-cursor {
+        height: 23px;
+    }
+    .hero-area-top-part {
+        min-height: auto;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    .hero-area-bottom-part {
+        margin-top: 0;
+        background-color: var(--bg-secondary);
+    }
+    .hero-area-img {
+        margin-bottom: 100px;
+    }
+    /* Hero area */
+
+    /* How It works */
+    .how-it-works-number {
+        margin-top: 30px;
+    }
+    /* How It works */
+
+    /* Pricing Area */
+    .pricing-area {
+        background-color: var(--bg-secondary);
+        margin-top: 100px;
+        padding-top: 0;
+        padding-bottom: 75px;
+    }
+    .pricing-special-title {
+        width: 100%;
+    }
+    .pricing-top-part-content p {
+        width: 100%;
+    }
+    /* Pricing Area */
+
+    /* Customer Testimonial Slider */
+    .customer-testimonial-img {
+        height: 70px;
+        width: 70px;
+        /* margin: 0 auto 20px; */
+    }
+    .testimonial-client-name {
+        font-size: 16px;
+    }
+    /* Customer Testimonial Slider */
+
+    /* Payment Page */
+    .payment-method-item .theme-btn-outline {
+        padding: 13px 19px!important;
+        font-size: 16px;
+    }
+    .payment-method-item-title h6 {
+        font-size: 15px;
+    }
+    /* Payment Page */
+
+    /* Footer */
+    .footer-links li a, .footer-links ul li {
+        display: flex;
+    }
+    /* Footer */
+
+}
+
+/*========================================
+    For large mobile
+=========================================*/
+
+@media only screen and (max-width:575.98px) {
+    h1 {
+        font-size: 33px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+
+    .section-title, .section-sub-heading {
+        width: 100%;
+    }
+    .section-sub-heading {
+        margin-bottom: 30px;
+    }
+
+    /* Menu Area */
+    #mainNav, #mainNav.sticky {
+        padding: 15px 15px;
+    }
+    /* Menu Area */
+
+    /* Home Page */
+    .hero-main-title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .hero-robot-img img {
+        height: 35px;
+        position: relative;
+        top: -11px;
+    }
+    .hero-robot-img {
+        margin: 0 12px 0 0;
+    }
+    .direction-rtl .hero-robot-img {
+        margin: 0 0 0 12px;
+    }
+    /* Home Page */
+
+    /* Pricing area */
+    .pricing-area-bottom-part {
+        margin-top: -398px;
+    }
+    /* Pricing area */
+
+    /* Testimonial area */
+    .customer-testimonial-area .section-title {
+        width: 100%;
+    }
+    .customer-testimonial-item {
+        margin-bottom: 15px;
+    }
+    /* Testimonial area */
+
+    /* Footer */
+    .footer-widget, .direction-rtl .footer-widget {
+        float: none;
+        text-align: center;
+    }
+    .footer-top-part {
+        justify-content: center;
+    }
+    .footer-links {
+        justify-content: center;
+    }
+    .footer-links li a, .footer-links ul li {
+        justify-content: center;
+    }
+    /* Footer */
+
+    /* Inner Page Banner Area */
+    .page-banner-content.section-title {
+        width: 97%;
+    }
+    .inner-page-content.contact-us-page-content {
+        padding: 25px;
+    }
+    /* Inner Page Banner Area */
+
+    /* Contact page */
+    .contact-info-item address {
+        width: 80%;
+    }
+    /* Contact page */
+
+    /* Sign in */
+    .sign-up-right-content {
+        width: auto;
+    }
+    .sign-up-right-content {
+        padding: 30px;
+    }
+    /* Sign in */
+
+ }
+
+
+@media only screen and (max-width:480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    /* Hero area */
+    .typed-cursor {
+        height: 14px;
+    }
+    .typed-cursor::after {
+        height: 10px;
+        width: 10px;
+        left: -4px;
+    }
+    .direction-rtl .typed-cursor::after {
+        left: auto;
+        right: -4px;
+    }
+    .typed-cursor::before {
+        height: 12px;
+        width: 12px;
+        left: -5px;
+        top: -11px;
+    }
+    .direction-rtl .typed-cursor::before {
+        left: auto;
+        right: -5px;
+    }
+    /* Hero area */
+
+    /* Pricing area */
+    .pricing-plan-area {
+        padding: 0;
+    }
+    /* Pricing area */
+
+}
+
+/*=========================================
+      For very little mobile
+=========================================*/
+@media only screen and (max-width:450px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    h2, h2.section-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+
+    .section-sub-heading {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /* Hero area */
+    .hero-main-title-left {
+        margin-right: 7px;
+    }
+    .direction-rtl .hero-main-title-left {
+        /* margin-right: 7px; */
+        margin-left: 7px;
+    }
+    .hero-robot-img {
+        display: none;
+    }
+    .hero-sub-title {
+        font-size: 15px;
+    }
+    /* Hero area */
+
+    /* FAQ area */
+    .generate-content-row-wrap {
+        padding: 0;
+        border: none;
+    }
+    .generate-content-faq {
+        background-color: transparent;
+        padding: 0;
+    }
+    .accordion-button {
+        padding: 20px 36px 20px 20px;
+    }
+    .accordion-button::after {
+        right: 14px;
+    }
+    .generate-content-faq .accordion-body {
+        padding: 0 1.50rem 9px 3rem;
+    }
+    .generate-content-faq .accordion-button, .accordion-button {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /* FAQ area */
+
+    /* Contact page */
+    .contact-info-item address {
+        width: 100%;
+    }
+    /* Contact page */
+}
+
+@media only screen and (min-width:300px) and (max-width:410px) {
+    .form-control {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:479px) {
+
+    p {
+        font-size: 16px;
+    }
+
+    /* Hero area */
+    .hero-heading {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    /* Testimonial Area */
+    .customer-testimonial-text {
+        font-size: 18px;
+    }
+    .testimonial-client-name {
+        font-size: 15px;
+    }
+    /* Testimonial Area */
+}
+/*-------------------------------------------
+    17. Responsive Design End
+-------------------------------------------*/

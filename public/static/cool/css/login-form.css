@@ -1,0 +1,105 @@
+.appics__login_pp .logo-popup-outer input[type="text"], .logo-popup-outer input[type="password"] {
+    background: #88888812;
+    height: auto;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.appics__login_pp .modal-content {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    pointer-events: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 30px var(--shadow-12);
+    box-shadow: 0 10px 30px #0000001f;
+}
+
+.appics__login_pp .modal-dialog {
+    margin: 100px auto;
+}
+.appics__login_pp .modal-body{
+    padding: 0;
+}
+.appics__login_pp .logo-popup-outer .user-form p {
+    margin-bottom: 15px;
+}
+
+.appics__login_pp .logo-popup-outer .user-form p label {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.appics__login_pp p.login-submit input[type="submit"] {
+    width: 100%;
+    background: #53E472;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.appics__login_pp .logo-popup-outer .user-form p {
+    margin-bottom: 15px;
+}
+
+.appics__login_pp .logo-popup-outer .user-form p label {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+p.login-submit input[type="submit"] {
+    width: 100%;
+    background: #53E472;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.appics__login_pp .user-form-footer.is-meta {
+    text-align: center;
+}
+
+.appics__login_pp .user-form-footer.is-meta a {
+    color: #212529;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.appics__login_pp .user-form-footer.is-meta a:hover {
+    text-decoration: underline;
+    text-decoration-color: #53E472;
+}
+.appics__login_pp .logo-popup-logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.appics__login_pp .login-popup-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.login-popup-header .logo-popup-description {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.appics__login_pp .modal-content .c-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 18px;
+    opacity: 1;
+    background: transparent;
+}
+.appics__login_pp .logo-popup-logo {
+    margin-bottom: 15px;
+  }
+  .appics__login_pp .logo-popup-outer input[type="text"], .logo-popup-outer input[type="password"] {
+    padding: 12px 15px;
+  }
+  .appics__login_pp p.login-submit input[type="submit"] {
+    padding: 12px;
+  }

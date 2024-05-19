@@ -1,0 +1,1 @@
+ALTER TABLE `kt_gptcms_card`  ADD COLUMN `size_num` int(10) NULL DEFAULT NULL COMMENT '时长或条数数量' AFTER `size`;

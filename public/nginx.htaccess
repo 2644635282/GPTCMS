@@ -1,0 +1,11 @@
+location /app/base/admin/ {
+  try_files $uri $uri/ /app/base/admin/index.html;
+}
+location /app/base/ {
+  try_files $uri $uri/ /app/base/index.html;
+}
+location / {
+    if (!-e $request_filename){
+        rewrite  ^(.*)$  /index.php?s=$1  last;   break;
+    }
+}

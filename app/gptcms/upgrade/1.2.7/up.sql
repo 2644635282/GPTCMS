@@ -1,0 +1,1 @@
+ALTER TABLE `kt_gptcms_jmodel` ADD COLUMN `qzzl` text NULL AFTER `defalut_reply`;

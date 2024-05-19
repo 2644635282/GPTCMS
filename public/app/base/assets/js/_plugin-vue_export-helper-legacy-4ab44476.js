@@ -1,0 +1,1 @@
+System.register([],(function(t,e){"use strict";var n=document.createElement("style");return n.textContent=".bottom-copy[data-v-13d2bf88]{bottom:20px;width:100%;min-width:1140px}\n",document.head.appendChild(n),{execute:function(){t("_",((t,e)=>{const n=t.__vccOpts||t;for(const[o,c]of e)n[o]=c;return n}))}}}));

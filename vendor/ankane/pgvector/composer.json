@@ -1,0 +1,38 @@
+{
+    "name": "ankane/pgvector",
+    "description": "pgvector support for PHP",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/pgvector/pgvector-php/issues",
+        "source": "https://github.com/pgvector/pgvector-php"
+    },
+    "authors": [
+        {
+            "name": "Andrew Kane",
+            "email": "andrew@ankane.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pgvector\\": "src/",
+            "Pgvector\\Laravel\\": "src/laravel/"
+        }
+    },
+    "require": {
+        "php": ">= 7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "illuminate/database": ">= 9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pgvector\\Laravel\\PgvectorServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}

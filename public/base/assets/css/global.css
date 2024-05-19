@@ -1,0 +1,11 @@
+/* .cropper{
+  width: 700px !important;
+  height: 500px !important;
+  background-color: #fff !important;
+    top: calc(50% - 250px) !important;
+    left: calc(50% - 350px) !important;
+    z-index: 2000;
+}
+.cropper__control{
+  color: #000 !important;
+} */

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest versionCode="">
+	<application>
+		<code>gptcms</code><!-- 应用标识 必须和文件夹名称一致 -->
+		<name>GPTCMS</name><!-- 应用名称-->
+		<date>2024-03-12</date><!-- 日期 -->
+		<version>2.0.7</version><!-- 版本 -->
+		<description>GPTCMS基于TP6+VUE3+Uniapp开发，对接多平台AI接口，支持AI聊天、AI绘画等</description><!-- 描述 -->
+		<author>狂团</author><!-- 作者 -->
+		<adminindex>/app/kt_ai/admin</adminindex><!-- 应用的管理后台配置入口路径，不带域名，没有留空-->
+		<userindex>/app/kt_ai</userindex><!-- 应用的用户后台访问路径，不带域名 -->
+		<target>2</target><!-- 首页打开方式1：当前窗口 2新窗口 -->
+		<logo>https://kt8logo.oss-cn-beijing.aliyuncs.com/app.png</logo><!-- logo -->
+		<type>1</type><!--类型：1主应用 2插件 3工具 4模板; 注: 插件类型时, 文件夹名必须在主应用后面拼接 plugin, 如gptcms_plugin_gptcms  -->
+	</application>
+</manifest>

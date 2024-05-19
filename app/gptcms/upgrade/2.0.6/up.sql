@@ -1,0 +1,2 @@
+ALTER TABLE `kt_gptcms_gpt_config` ADD COLUMN `wxyy4` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '文心一言',ADD COLUMN `glm4` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT 'ChatGlm4';
+ALTER TABLE `kt_gptcms_chatmodel_set` ADD COLUMN `wxyy4` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '文心一言 4',ADD COLUMN `glm4` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT 'chatglm 4';

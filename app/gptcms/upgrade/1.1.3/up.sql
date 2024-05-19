@@ -1,0 +1,1 @@
+ALTER TABLE `kt_gptcms_websit` ADD COLUMN `pcwxlogin_status` tinyint(1) NULL DEFAULT 0 COMMENT 'pc微信登录开关  1开启 0关闭' AFTER `gzhcode`;

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="{$agent['key_word']}">
+    <meta name="description" content="{$agent['describe']}">
+    <title>{$agent['webname']} -{$agent['webtitle']}</title>
+    <!-- plugins:css -->
+    <!-- 源码购买：zxkuz.cn -->
+    <link rel="stylesheet" href="/static/chat_web/assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="/static/chat_web/assets/css/style.css">
+
+    <link rel="stylesheet" href="/static/chat_web/css/index.css">
+    <link rel="stylesheet" href="/static/chat_web/css/main.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="/static/chat_web/assets/images/favicon.ico" />
+  </head>
+  
+  <body>
+      
+    <div class="container-scroller s-back">
+      <!-- partial:partials/_navbar.html -->
+
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper s-width-m">
+        <!-- partial:partials/_sidebar.html -->
+     
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <!-- 自我介绍 -->
+
+         
+                <div class="first-left-rel">
+                  <div class="first-left"></div>
+                  <!-- <div class="first-btn">LOGO</div> -->
+                  <img style="margin: 1.1rem 4rem;padding: 0.1rem 0.8rem;width: 20%;" src="{$agent['user_logo']}"></img>
+                  <div class="no-show-mobile s-height">
+                    <button id="register" class="btn border-0 p-0 s-btn-plain" onclick="window.open('/app/base')">
+                      <span class="s-color-word">注册</span>
+                    </button>
+                    <button id="login" class="btn border-0 p-0 s-btn-primary" onclick="window.open('/app/base')">
+                      <span>登录</span>
+                    </button>
+                  </div>
+                 
+                </div>
+              
+           
+
+            <div class="s-pad s-layout">
+              <div>
+                <div class="s-color-word s-title s-center-mobile">
+                  {$agent['webname']}
+                </div>
+                <div class="s-grey-word">
+                  {$agent['webname']}作为一款大型语言模型，拥有强大的自然语言处理和智能交互能力，能够实现智能问答、聊天互动、文本生成等多种应用场景，并且具有丰富的知识储备，涵盖科学、技术、文化、艺术、历史等领域。
+                </div>
+              </div>
+             <img class="s-img1" src="/static/chat_web/assets/images/fc1a826f82930c9a4f8871aae3c53998.png">
+            </div>
+
+            <div class="show-mobile s-p1">
+              <button id="register" class="s-w1 btn border-0 p-0 s-btn-plain s-btn-mr" onclick="window.open('/app/base')">
+                <span class="s-color-word">去注册</span>
+              </button>
+              <button id="login" class="s-w1 btn border-0 p-0 s-btn-primary" onclick="window.open('/app/base')">
+                <span>去登录</span>
+              </button>
+            </div>
+
+            <div class="s-pad-c s-flexlc smb0">
+              <img class="s-img2 s-btn-mr" src="/static/chat_web/assets/images/robot.png">
+            <div class="s-flexcl">
+              <div class="s-font1 s-color-word s-title">
+                HI, 
+              </div>
+              <div class="s-font1 s-color-word s-title">
+                我是您的AI创作师
+              </div>
+            </div>
+            </div>
+
+            <div id="topic1" class="s-pad-c s-flex-wrap">
+            
+             
+            </div>
+           
+
+           
+
+            
+            <!-- <div class="gap-block1"></div> -->
+       
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:partials/_footer.html -->
+          <footer class="footer no-border">
+            <div id="footer" class="container-fluid d-flex justify-content-between s-foot">
+              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright (c)2022-2023 {$agent['company_name']} {$agent['webname']} 版权所有 | <span onclick="window.open('https://beian.miit.gov.cn/')">{$agent['record_number']}</span></span>
+           </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="/static/chat_web/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="/static/chat_web/assets/js/jquery.cookie.js" type="text/javascript"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="/static/chat_web/assets/js/off-canvas.js"></script>
+    <script src="/static/chat_web/assets/js/hoverable-collapse.js"></script>
+    <script src="/static/chat_web/assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="/static/chat_web/assets/js/dashboard.js"></script>
+    <!-- End custom js for this page -->
+
+    <script src="/static/chat_web/util/index.js"></script>
+    
+    <!--百度统计-->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?95f1215f35e38ec9aa0ffae0730b573e";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+
+<!-- 弹窗代码开始 -->
+<div class="web_notice" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.3);z-index: 99999;">
+	<div style="position: fixed;top: 50%;left: 50%;width: 80%;background: #FFF;transform: translate(-50%, -50%);border-radius: 40px;padding: 50px 40px;">
+		<h3 style="font-weight: bold;text-align: center;font-size: 30px;">源码购买</h3>
+		<div style="font-size: 16px;margin-top: 26px;line-height: 30px;color: #999;">
+			<b>您现在访问的是系统，源码非完整版本，购买源码请添加我们的微信: sn5dial</b><br /><br />
+		</div>
+		<a style="display: block;background: #98a3ff;color: #FFF;text-align: center;font-weight: bold;font-size: 19px;line-height: 60px;margin: 0 auto;margin-top: 45px;border-radius: 32px;width: 80%;" onclick="javascript:document.querySelector('.web_notice').remove()">我知道了</a>
+	</div>
+</div>
+<!-- 弹窗代码结束 -->
+
+  </body>
+</html>
